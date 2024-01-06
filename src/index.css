@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    overflow-x: hidden;
+}
+
+li {
+    cursor: pointer;
+    transition: 0.2s;
+}
+li:hover {
+    background-color: white;
+    color: black;
+    width: 250px;
+    height: 40px;
+    border-radius: 100px;
+    font-weight: bolder;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
